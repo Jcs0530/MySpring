@@ -7,7 +7,7 @@
         <packaging>war</packaging>
       </options>
     </properties>
-    <root id="archive" name="myIoc.war">
+    <root id="archive" name="MyIoc.war">
       <element id="artifact" artifact-name="MyIoc:war exploded" />
     </root>
   </artifact>

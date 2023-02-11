@@ -9,11 +9,11 @@
     <param-value>classpath:applicationContext.properties</param-value>
   </context-param>
   <listener>
-    <listener-class>com.xiaoqiang.mvc.listen.ContextLoaderListener</listener-class>
+    <listener-class>com.cs.mvc.listen.ContextLoaderListener</listener-class>
   </listener>
   <servlet>
     <servlet-name>dispatcher</servlet-name>
-    <servlet-class>com.xiaoqiang.mvc.servlet.DispatcherServlet</servlet-class>
+    <servlet-class>com.cs.mvc.servlet.DispatcherServlet</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>dispatcher</servlet-name>

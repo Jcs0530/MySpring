@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="MyIoc:war exploded">
-    <output-path>$PROJECT_DIR$/spring/target/myIoc</output-path>
+    <output-path>$PROJECT_DIR$/spring/target/MyIoc</output-path>
     <properties id="maven-jee-properties">
       <options>
         <exploded>true</exploded>
@@ -26,7 +26,7 @@
         </element>
       </element>
       <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/spring/target/myIoc/META-INF/MANIFEST.MF" />
+        <element id="file-copy" path="$PROJECT_DIR$/spring/target/MyIoc/META-INF/MANIFEST.MF" />
       </element>
       <element id="javaee-facet-resources" facet="MyIoc/web/Web" />
     </root>

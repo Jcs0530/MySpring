@@ -1,10 +1,10 @@
 [
   {
     "name": "user",
-    "className": "com.xiaoqiang.ioc.testBean.User",
+    "className": "com.cs.ioc.testBean.User",
     "constructorArgs": [{
       "name": "name",
-      "value": "xiaoqiang",
+      "value": "cs",
       "type": "String"
     },{
 
@@ -15,7 +15,7 @@
   },
   {
     "name": "dept",
-    "className": "com.xiaoqiang.ioc.testBean.Department",
+    "className": "com.cs.ioc.testBean.Department",
     "constructorArgs": [{
       "name": "user",
       "ref": "user"
@@ -27,7 +27,7 @@
   },
   {
     "name": "user2",
-    "className": "com.xiaoqiang.ioc.testBean.User",
+    "className": "com.cs.ioc.testBean.User",
     "propertyArgs": [{
       "name": "name",
       "value": "小强"

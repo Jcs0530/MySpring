@@ -1,11 +1,9 @@
 import com.alibaba.fastjson.JSON;
-import com.xiaoqiang.ioc.bean.ConstructorArg;
-import com.xiaoqiang.ioc.config.UserController;
-import com.xiaoqiang.ioc.factory.AbstractBeanFactory;
-import com.xiaoqiang.ioc.factory.ApplicationContext;
-import com.xiaoqiang.ioc.factory.JSONBeanFactory;
-import com.xiaoqiang.ioc.utils.ClassLoaderUtils;
-import com.xiaoqiang.ioc.utils.ReflectionUtils;
+import com.cs.ioc.bean.ConstructorArg;
+import com.cs.ioc.config.UserController;
+import com.cs.ioc.factory.ApplicationContext;
+import com.cs.ioc.factory.JSONBeanFactory;
+import com.cs.ioc.utils.ReflectionUtils;
 import org.junit.Test;
 
 import java.lang.reflect.Method;
@@ -31,7 +29,7 @@ public class testBeanFactory {
         Map<String, ConstructorArg> map = new HashMap<>();
         ConstructorArg constructorArg = new ConstructorArg();
         constructorArg.setName("name");
-        constructorArg.setValue("xiaoqinag");
+        constructorArg.setValue("cs");
 
         ConstructorArg constructorArg1 = new ConstructorArg();
         constructorArg1.setName("age");
