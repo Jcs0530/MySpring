@@ -1,0 +1,40 @@
+[
+  {
+    "name": "user",
+    "className": "com.xiaoqiang.ioc.testBean.User",
+    "constructorArgs": [{
+      "name": "name",
+      "value": "xiaoqiang",
+      "type": "String"
+    },{
+
+      "name": "age",
+      "value": "18",
+      "type": "int"
+    }]
+  },
+  {
+    "name": "dept",
+    "className": "com.xiaoqiang.ioc.testBean.Department",
+    "constructorArgs": [{
+      "name": "user",
+      "ref": "user"
+    },{
+      "name": "id",
+      "value": "1",
+      "type": "int"
+    }]
+  },
+  {
+    "name": "user2",
+    "className": "com.xiaoqiang.ioc.testBean.User",
+    "propertyArgs": [{
+      "name": "name",
+      "value": "小强"
+    },{
+      "name": "age",
+      "value": "28"
+    }]
+  }
+
+]
